@@ -1,0 +1,41 @@
+.nav{
+    font-family: 'Roboto', sans-serif;
+    height: 60px;
+    width: 1920px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(87, 87, 87);
+    display: flex; /*it separates elements */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-size:35px;
+    margin-left: 40px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 40%;
+
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;  /* turn the underline off */
+}
+
+.btn {
+    height: 30px;
+    width: 93px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(16, 147, 156); 
+    border: 2px solid black;
+    box-shadow: 4px 3px rgb(10, 9, 9);
+    cursor: pointer;
+}
